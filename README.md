@@ -1,6 +1,7 @@
 # EV Adoption in Europe – SAS Analysis
 
-Final project for the ZADA course at OTH Regensburg (Erasmus, 2025).
+Final project for the ZADA course at OTH Regensburg (Erasmus, 2025),
+led by Jonathan Whitaker from Richmond University.
 
 ## Overview
 This project analyzes the key drivers of battery electric vehicle (BEV) adoption 
@@ -32,3 +33,16 @@ SAS Viya — `proc import`, `proc sql`, `proc corr`, `proc reg`, `proc standard`
 - Charger quantity (r = 0.90) tracks total BEV fleet far better than charger quality
 - Clean energy investment explains 96% of variation in EU-wide BEV sales (R² = 0.961)
 - Norway, Sweden, and Finland lead the composite EV ecosystem ranking
+
+## Limitations
+- Electricity consumption data was unavailable for Bulgaria and Croatia, making 
+  clean electricity share impossible to compute for those countries
+- Several factors with significant influence on BEV adoption were excluded due to 
+  lack of comprehensive public datasets: government incentives, EV purchase prices, 
+  charging costs, urbanisation levels, and consumer behaviour
+- Transport emissions are influenced by many sectors beyond passenger road transport 
+  (freight, aviation, shipping), which limits the interpretability of that variable
+- Land area values were hardcoded manually from Eurostat rather than sourced from 
+  a dedicated dataset
+- The IEA Global EV Outlook 2024 dataset used in this project is no longer publicly 
+  available; results may differ if reproduced with a newer edition
