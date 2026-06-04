@@ -24,3 +24,8 @@ Free email registration required. Files available as CSV or Excel.
 ## EEA
 - **National GHG Emissions**: https://www.eea.europa.eu/en/datahub/datahubitem-view/3b7fe76c-524a-439a-bfd2-a6e4046302a2  
   Free download, CSV or Excel format.
+
+## File Path Note
+The SAS code references file paths specific to the SAS Viya environment used during development.
+Before running the code, update all `proc import` file paths in `Final Project Code_Petru.sas` to match the location where you have saved the datasets locally.
+All paths are at the top of each `proc import` statement.
