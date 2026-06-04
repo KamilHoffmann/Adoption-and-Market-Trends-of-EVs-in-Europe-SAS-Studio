@@ -16,9 +16,12 @@ across 28 European countries using SAS Viya. The analysis covers the period
 - **Composite EV Ecosystem Score** – Z-score standardization across all three 
   pillars to rank countries by EV readiness
 
+See `Project_Essay_Petru.pdf` for the full analysis and real-world implications.
+
 ## Data Sources
 EAFO, Eurostat, IEA Global EV Data, IEA Monthly Electricity Statistics, 
-IEA World Energy Investment 2024, EEA National Emissions Database
+IEA World Energy Investment 2024, EEA National Emissions Database.
+See `DATA_SOURCES.md` for download links and instructions.
 
 ## Tools & Methods
 SAS Viya — `proc import`, `proc sql`, `proc corr`, `proc reg`, `proc standard`, 
